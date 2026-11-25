@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
+
 class LocalUser {
   LocalUser({required this.name, required this.id});
 
@@ -10,7 +12,7 @@ class LocalUser {
 }
 
 class LocalRelyingPartyServer {
-  static const rpId = 'flutter.corbado.io';
+  static const rpId = kIsWeb ? 'localhost' : 'flutter.corbado.io';
 
   final Map<String, LocalUser> _users = {};
   final Map<String, LocalUser> _challenges = {};
