@@ -62,6 +62,14 @@ cd ..
 flutter run -d ios
 ```
 
+También puedes probar la interfaz en Chrome desde la carpeta `flutter_fido2_example`:
+
+```bash
+flutter run -d chrome
+```
+
+La versión web requiere el SDK de Passkeys incluido en `web/bundle.js`. En web, `localhost` permite probar WebAuthn en un navegador compatible; el servidor de confianza sigue siendo una simulación local en memoria, no un backend de producción.
+
 ## Uso del ejemplo
 
 1. Escribe un nombre de usuario.
