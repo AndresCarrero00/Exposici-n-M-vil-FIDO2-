@@ -5,6 +5,7 @@ Ejemplo práctico de autenticación sin contraseña mediante **passkeys (FIDO2/W
 ## Video de la exposición
 
 - [Ver exposición en YouTube](https://youtu.be/EPiZyr5i_qA?si=43Qld3l6ou8ij-3V)
+- [Ver Prototipo en YouTube](https://youtu.be/RLfM9lVH_DQ)
 
 ## ¿Qué es FIDO2?
 
